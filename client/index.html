@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Notecard</title>
+	<meta name="author" content="Isler Brothers">
+	<meta name="keywords" content="notecard, isler, brothers, web, application">
+	<meta name="description" content="Write, edit, and view the flash cards that you create on the web.">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="scripts/notecard.js"></script>
+	<link rel="stylesheet" href="scripts/index.css">
+</head>               
+<body>
+	<div class="container">
+	
+		<div class="header">
+			<div class="head-left">
+				<a href="/"><img src="images/notecard.png"></img>Notecard</a>
+			</div>
+			<div class="head-right">
+				<a href="/"><div class="boot-glyph"><span class="glyphicon glyphicon-home"></span></div></a>
+			</div>
+		</div>
+		
+		<div class="body-index">
+			<div class="app">
+				
+				<div class="notecard-h-container">
+					<a class="classLeftBtn" href="javascript:void(0);" title="Previous"><div class="left-arrow-he glyphicon glyphicon-arrow-left"></div></a>
+					<h2 class="course-name">Statistics</h2>
+					<a class="classRightBtn" href="javascript:void(0);" title="Next"><div class="right-arrow-he glyphicon glyphicon-arrow-right"></div></a>
+				</div>
+				
+				<div class="notecard-container">
+					<a class="leftBtn" href="javascript:void(0);" title="Previous"><div class="left-arrow glyphicon glyphicon-arrow-left"></div></a>
+					<div class="notecard">
+						<p class="notecard-text">notecard-text</p>
+					</div>
+					<!-- JQuery reminder: There are two left buttons for the notecard: 1 for desktop, 1 for iphone-->
+					<a class="leftBtn" href="javascript:void(0);" title="Previous"><div class="left-arrow-h left-arrow glyphicon glyphicon-arrow-left"></div></a>
+					<a class="rightBtn" href="javascript:void(0);" title="Next"><div class="right-arrow glyphicon glyphicon-arrow-right"></div></a>
+				</div>
+				<div class="notecard-nav">
+					<button type="button" class="btn">Flip card</button>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>&copy; Isler Brothers - All Rights Reserved.</p>
+		</div>
+		
+		</div>
+	</div>
+
+</body>
+</html>

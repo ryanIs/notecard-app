@@ -1,0 +1,44 @@
+{
+    "courses": [
+        {
+            "courseName": "physicsLab",
+            "notecards": [
+                {
+                    "question": "physicsLabQuestion",
+                    "answer": "physicsLabAnswer"
+                }
+            ]
+        },
+        {
+            "courseName": "physicsLecture",
+            "notecards": [
+                {
+                    "question": "physicsLectureQuestion",
+                    "answer": "physicsLectureAnswer"
+                }
+            ]
+        },
+        {
+            "courseName": "calculus",
+            "notecards": [
+                {
+                    "question": "calculusQuestion",
+                    "answer": "calculusAnswer"
+                },
+                {
+                    "question": "a",
+                    "answer": "not b"
+                }
+            ]
+        },
+        {
+            "courseName": "C",
+            "notecards": [
+                {
+                    "question": "CQuestion",
+                    "answer": "CAnswer"
+                }
+            ]
+        }
+    ]
+}
